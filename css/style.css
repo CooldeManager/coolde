@@ -1,3 +1,16 @@
 .coolde-logo {
     width: 5%;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .coolde-logo {
+        width: 25%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .coolde-logo {
+        width: 20%;
+    }
+  }
