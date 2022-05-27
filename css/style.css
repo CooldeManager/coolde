@@ -23,11 +23,23 @@
     .coolde-logo {
         width: 20%;
     }
+
+    .preview-pane {
+      padding: 0;
+      height: 120px;
+      text-align: center;
+    }
     
   }
 
 @media only screen and (max-width: 768px) {
     .coolde-logo {
         width: 25%;
+    }
+
+    .preview-pane {
+      padding: 0;
+      height: 190px;
+      text-align: center;
     }
   }
