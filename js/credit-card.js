@@ -9,7 +9,7 @@
 "use strict";
 
 $(function() {
-  var paymentForm = document.querySelector(".checkout-cc-payment-form");
+  var paymentForm = document.querySelector(".checkout-cc-front-endform");
 
   if (paymentForm) {
     var card = new Card({

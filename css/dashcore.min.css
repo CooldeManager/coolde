@@ -27698,8 +27698,10 @@ main {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+ opacity 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+ opacity 0.3s ease-in-out;
   text-decoration: none;
   letter-spacing: 1px;
   padding: 1rem;
@@ -30593,7 +30595,7 @@ section.shadow,
   background-size: 20px 20px;
 }
 
-.payment-features .shape-circle {
+.front-endfeatures .shape-circle {
   width: 80px;
   height: 80px;
   background: #5533ff;
@@ -32272,7 +32274,7 @@ section.shadow,
   border-radius: 100px;
 }
 
-.payment-services-header .shape-main {
+.front-end-header .shape-main {
   position: absolute !important;
   left: 0;
   top: 0;
@@ -32284,7 +32286,7 @@ section.shadow,
   background-image: linear-gradient(45deg, #f4b4ff 0, #ffd4ff 35%, #fffdff 100%);
 }
 
-.payment-services-header .shape-main .bottom-edge {
+.front-end-header .shape-main .bottom-edge {
   position: absolute;
   left: 0;
   top: auto;
@@ -32298,41 +32300,41 @@ section.shadow,
 }
 
 @media (min-width: 768px) {
-  .payment-services-header .shape-main {
+  .front-end-header .shape-main {
     width: 65%;
   }
 }
 
-.payment-services-header .figure-box {
+.front-end-header .figure-box {
   max-width: 500px;
 }
 
-.payment-services-header .figure-box .screens {
+.front-end-header .figure-box .screens {
   overflow: hidden;
   position: relative;
 }
 
 @media (min-width: 768px) {
-  .payment-services-header .figure-box {
+  .front-end-header .figure-box {
     margin-right: 0;
     -webkit-transform: translate3d(25%, 0, 0);
             transform: translate3d(25%, 0, 0);
   }
 }
 
-.payment-services-header .figure-box .position-absolute {
+.front-end-header .figure-box .position-absolute {
   top: 0;
 }
 
-.payment-services-header .figure-box.cutout:after {
+.front-end-header .figure-box.cutout:after {
   z-index: 0;
 }
 
-.payment-services-header .static-shape {
+.front-end-header .static-shape {
   position: absolute;
 }
 
-.payment-services-header .static-shape.pattern-dots {
+.front-end-header .static-shape.pattern-dots {
   top: 0;
   left: 10%;
   width: 75%;
@@ -32342,7 +32344,7 @@ section.shadow,
   background-size: 20px 20px;
 }
 
-.payment-services-header .promo-box {
+.front-end-header .promo-box {
   width: 100%;
   bottom: 0;
   left: 0;
@@ -32350,7 +32352,7 @@ section.shadow,
 }
 
 @media (min-width: 768px) {
-  .payment-services-header .promo-box {
+  .front-end-header .promo-box {
     width: auto;
     position: absolute;
     left: -100px;
@@ -32822,13 +32824,13 @@ section.shadow,
           transform: scale(-1, 1);
 }
 
-[dir="rtl"] .payment-services-header .shape-main {
+[dir="rtl"] .front-end-header .shape-main {
   left: auto;
   right: 0;
 }
 
 @media (min-width: 768px) {
-  [dir="rtl"] .payment-services-header .figure-box {
+  [dir="rtl"] .front-end-header .figure-box {
     margin-left: 0;
     margin-right: auto;
     -webkit-transform: translate3d(-25%, 0, 0);
@@ -32837,7 +32839,7 @@ section.shadow,
 }
 
 @media (min-width: 768px) {
-  [dir="rtl"] .payment-services-header .promo-box {
+  [dir="rtl"] .front-end-header .promo-box {
     left: auto;
     right: -100px;
   }

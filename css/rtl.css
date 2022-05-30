@@ -264,13 +264,13 @@
           transform: scale(-1, 1);
 }
 
-[dir="rtl"] .payment-services-header .shape-main {
+[dir="rtl"] .front-end-header .shape-main {
   left: auto;
   right: 0;
 }
 
 @media (min-width: 768px) {
-  [dir="rtl"] .payment-services-header .figure-box {
+  [dir="rtl"] .front-end-header .figure-box {
     margin-left: 0;
     margin-right: auto;
     -webkit-transform: translate3d(-25%, 0, 0);
@@ -279,7 +279,7 @@
 }
 
 @media (min-width: 768px) {
-  [dir="rtl"] .payment-services-header .promo-box {
+  [dir="rtl"] .front-end-header .promo-box {
     left: auto;
     right: -100px;
   }
