@@ -14,12 +14,34 @@
   height: auto;
 }
 
+.button-div {
+  display: flex;
+}
+
+.botao-html {
+  background-color: #e34c26;
+  color: #000000;
+  border: none;
+}
+
+.botao-css {
+  background-color: #264de4;
+  border: none;
+}
+
+.botao-javascript {
+  background-color: #f0db4f;
+  color: #322330;
+  border: none;
+}
+
+
 @media (min-width: 1025px) and (max-width: 1280px) {
   
     .coolde-logo {
         width: 20%;
     }
-    
+
   }
   
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -52,6 +74,10 @@
 
     .imagem-front-end {
       display: none;
+    }
+
+    .button-div {
+      display: inherit;
     }
     
   }
