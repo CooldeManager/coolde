@@ -28843,88 +28843,8 @@ main {
 
 .mockup img {
   display: block;
-  max-width: 100%;
   height: auto;
-}
-
-.cutout {
-  position: relative;
-}
-
-.cutout.bottom-right {
-  position: relative;
-}
-
-.cutout.bottom-right::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 30' fill='rgb(255,255,255)' fill-opacity='1'%3E%3Cpolygon points='0,30 100,30 0,0'%3E%3C/polygon%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: '';
-  height: 30px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-  bottom: 0;
-}
-
-.cutout.bottom-left {
-  position: relative;
-}
-
-.cutout.bottom-left::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 30' fill='rgb(255,255,255)' fill-opacity='1'%3E%3Cpolygon points='0,30 100,30 100,0'%3E%3C/polygon%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: '';
-  height: 30px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-  bottom: 0;
-}
-
-.cutout.x2.bottom-right {
-  position: relative;
-}
-
-.cutout.x2.bottom-right::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 60' fill='rgb(255,255,255)' fill-opacity='1'%3E%3Cpolygon points='0,60 100,60 0,0'%3E%3C/polygon%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: '';
-  height: 60px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-  bottom: 0;
-}
-
-.cutout.x2.bottom-left {
-  position: relative;
-}
-
-.cutout.x2.bottom-left::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 60' fill='rgb(255,255,255)' fill-opacity='1'%3E%3Cpolygon points='0,60 100,60 100,0'%3E%3C/polygon%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: '';
-  height: 60px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-  bottom: 0;
+  max-width: 100%;
 }
 
 /* ==========================================================================
@@ -32272,7 +32192,7 @@ section.shadow,
           transform: rotate(-55deg);
   position: absolute;
   border-radius: 100px;
-}front-end
+}
 
 .front-endservices-header .shape-main {
   position: absolute !important;
@@ -32284,7 +32204,7 @@ section.shadow,
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   background-image: linear-gradient(45deg, #f4b4ff 0, #ffd4ff 35%, #fffdff 100%);
-}front-end
+}
 
 .front-endservices-header .shape-main .bottom-edge {
   position: absolute;
@@ -32298,41 +32218,41 @@ section.shadow,
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
 }
-front-end
+
 @media (min-width: 768px) {
   .front-endservices-header .shape-main {
     width: 65%;
   }
-}front-end
+}
 
 .front-endservices-header .figure-box {
   max-width: 500px;
-}front-end
+}
 
 .front-endservices-header .figure-box .screens {
   overflow: hidden;
   position: relative;
 }
-front-end
+
 @media (min-width: 768px) {
   .front-endservices-header .figure-box {
     margin-right: 0;
     -webkit-transform: translate3d(25%, 0, 0);
             transform: translate3d(25%, 0, 0);
   }
-}front-end
+}
 
 .front-endservices-header .figure-box .position-absolute {
   top: 0;
-}front-end
+}
 
 .front-endservices-header .figure-box.cutout:after {
   z-index: 0;
-}front-end
+}
 
 .front-endservices-header .static-shape {
   position: absolute;
-}front-end
+}
 
 .front-endservices-header .static-shape.pattern-dots {
   top: 0;
@@ -32342,7 +32262,7 @@ front-end
   background-color: transparent;
   background-image: radial-gradient(rgba(85, 51, 255, 0.5) 3px, transparent 3px);
   background-size: 20px 20px;
-}front-end
+}
 
 .front-endservices-header .promo-box {
   width: 100%;
@@ -32350,7 +32270,7 @@ front-end
   left: 0;
   z-index: 1;
 }
-front-end
+
 @media (min-width: 768px) {
   .front-endservices-header .promo-box {
     width: auto;
