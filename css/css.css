@@ -1,0 +1,16 @@
+.bg-primary-html{
+    background-color: #264de4;
+    color: #000000;
+}
+
+.accordion .card-header {
+    background-color: #264de4;
+}
+
+.text-contrast-header {
+    color: #ffff;
+}
+
+.btn {
+    color: #ffff;
+}
