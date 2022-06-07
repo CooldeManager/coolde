@@ -1,0 +1,18 @@
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*Tablet*/
+    .organizacao{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+  }
+
+@media only screen and (max-width: 768px) {
+    /*Celular*/
+    .organizacao{
+        display: flex;
+        flex-direction: column;
+    }
+  }
