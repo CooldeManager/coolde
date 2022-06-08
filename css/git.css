@@ -1,3 +1,7 @@
 .imagem-header{
     background-image: linear-gradient(to right top, #414142, #323135);
 }
+
+.bg-primary-black {
+    background-color: #323135;
+}
