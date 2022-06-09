@@ -1,0 +1,23 @@
+.bg-light.edge.bottom-right::after{
+    background-image: none;
+}
+
+.bg-primary-black {
+    background-color: #323135;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*Tablet*/
+    .linguagem{
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    
+  }
+
+@media only screen and (max-width: 768px) {
+    /*Celular*/
+    
+  }
