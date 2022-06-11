@@ -1,0 +1,21 @@
+.footer-final{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*Tablet*/
+
+    
+  }
+
+@media only screen and (max-width: 768px) {
+    /*Celular*/
+    
+    .email{
+        text-align: center;
+      }
+      
+  }
