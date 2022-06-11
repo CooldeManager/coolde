@@ -56,12 +56,18 @@
   height: 310px;
 }
 
+.footer-final{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
     .coolde-logo {
         width: 20%;
     }
+    
 
   }
   
@@ -102,6 +108,11 @@
   }
 
 @media only screen and (max-width: 768px) {
+
+    .email{
+      text-align: center;
+    }
+    
     .coolde-logo {
         width: 25%;
     }
